@@ -22,3 +22,7 @@ classifiers = [
 [project-urls]
 Homepage = "https://github.com/Nnaa4y/ghostdebug"
 Repository = "https://github.com/Nnaa4y/ghostdebug"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
