@@ -8,11 +8,11 @@ pip install ghostdebug
 
 ## USAGE
 
-First,import Types,Filteres and the main Debugger:
+First,import required classes:
 
 ```python
 from ghostdebug import Debug
-from filter import Type,Filter
+from ghostdebug.filter import Type,Filter
 ```
 
 Then,create logs with different types:
@@ -24,7 +24,7 @@ Debug.Log("An error detected",Type.Error)
 Debug.Log("Can't divide by zero",Type.Error_Info)
 ```
 Note:
-If you don't use this Types the program will print:
+If you use an undefined type,the program will raise:
 ```console
 TypeException : Type 'used_type' is not defined
 ```
