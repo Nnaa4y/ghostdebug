@@ -1,5 +1,5 @@
 import sys,os
-from filter import Type,Filter
+from .filter import Type,Filter
 from colorama import Fore
 class Debug:
     Logs = {}
